@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install -r requirements.txt || true  # Install dependencies if any
+          pip install -r requirement.txt || true  # Install dependencies if any
 
       - name: Run Script
         run: python app.py  # Replace with your actual script filename
